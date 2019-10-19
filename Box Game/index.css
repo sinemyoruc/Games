@@ -1,0 +1,23 @@
+.container
+{
+    border: red solid 2px;
+    height :90vh;
+    width: 90vh;
+    display :grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.cell
+{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 4px;
+    color : black;
+    text-align: center;
+}
+.cell-1
+{
+    background-color: red;
+}
