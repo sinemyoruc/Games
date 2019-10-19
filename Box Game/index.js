@@ -25,6 +25,7 @@ function renk(x ,y ) {
             if(x == i || y == j){
                 if(cellxy[i][j].style.backgroundColor ==  "red" ) {
                     cellxy[i][j].style.backgroundColor = "white";
+                    
                 }else{
                     cellxy[i][j].style.backgroundColor = "red" ;
                 }
