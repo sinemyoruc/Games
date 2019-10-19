@@ -18,9 +18,9 @@ function f() {
 }
 
 function renk(x ,y ) {
-    for(var i = 0 ;i<cell.length ; i++)
+    for(var i = 0 ;i<4 ; i++)
     {
-        for(var j = 0 ; j<cell.length ; j++)
+        for(var j = 0 ; j<4 ; j++)
         {
             if(x === i || y === j){
                 if(cellxy[i][j].style.backgroundColor ===  "rgb(77, 182, 172)" ) {
