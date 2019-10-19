@@ -27,7 +27,7 @@ function renk(x ,y ) {
                     cellxy[i][j].style.backgroundColor = "white";
                     
                 }else{
-                    cellxy[i][j].style.backgroundColor = "red" ;
+                    cellxy[i][j].style.backgroundColor = "green" ;
                 }
             }
 
