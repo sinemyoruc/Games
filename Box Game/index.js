@@ -22,12 +22,12 @@ function renk(x ,y ) {
     {
         for(var j = 0 ; j<cell.length ; j++)
         {
-            if(x == i || y == j){
-                if(cellxy[i][j].style.backgroundColor ==  "red" ) {
+            if(x === i || y === j){
+                if(cellxy[i][j].style.backgroundColor ===  "rgb(77, 182, 172)" ) {
                     cellxy[i][j].style.backgroundColor = "white";
                     
                 }else{
-                    cellxy[i][j].style.backgroundColor = "green" ;
+                    cellxy[i][j].style.backgroundColor = "rgb(77, 182, 172)" ;
                 }
             }
 
